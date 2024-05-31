@@ -1,0 +1,560 @@
+.wrapper{
+    overflow-x: hidden;
+}
+.top-header{
+    background-color: #222222;
+    color: #fff;
+    padding: 15px 0;
+}
+.d-currency{
+    text-align: right;
+    font-weight: lighter;
+    font-size: 15px;
+    height: 18px;
+}
+.country{
+    gap: 20px;
+}
+.country> img{
+    height: 18px;
+    border-radius: 5px;
+}
+.d-sale{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.d-contact{
+    display: flex;
+    gap: 17px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.sale{
+    color: yellow;
+}
+.quality-bread{
+    height: 100vh;
+    position: relative;
+    background-image: url(https://demo-kalles-4-2.myshopify.com/cdn/shop/files/b-s12.jpg?v=1651824484&width=1500);
+}
+.qb-content{
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+.qb-year{
+    text-transform: uppercase;
+    color: rgb(196, 159, 73);
+    font-weight: 500;
+    font-size: larger;
+}
+.qb-title{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.qb-desc{
+    display: block;
+    margin: 20px 0px;
+}
+
+.qb-content-left{
+    margin-top: 40px;
+}
+
+
+.menu-bar{
+    position: absolute;
+    background-color: #fff;
+    height: 80px;
+    width: 1220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 33px;
+    left: 78px;
+    padding: 39px 30px;
+}
+.logo-item_> img{
+    height: 30px;
+    width: 100px;
+}
+.the-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.menu-navination{
+    align-items: left;
+}
+.menu-navination-item{
+    align-items: center;
+    gap: 10px;
+}
+.menu_item_{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #0f0f0f;
+    font-weight: 500;
+}
+.menu_item_> a:hover{
+    color: #d8ad37;
+}
+.btn_icon{
+    display: flex;
+    list-style: none;
+
+}
+.btn-icon-navination{
+    text-align: right;
+}
+
+.iconitem{
+    position: relative;
+    display: inline-flex;
+    padding: 10px;
+}
+.iconitem> a{
+    color: #0f0f0f;
+}
+
+.iconitem> a:hover{
+    color: #d8ad37;
+}
+
+
+.btn{
+    padding: 10px 30px;
+}
+.btn-more{
+    background-color: #222222;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0;
+}
+.btn-more:hover{
+    background-color: rgb(196, 159, 73);
+    color: black;
+}
+/* love */
+.container-2{
+    height: 289px;
+
+}
+.container-menu-2{
+    padding: 50px;
+}
+.love-bread{
+    background-image: url(https://demo-kalles-4-2.myshopify.com/cdn/shop/files/background-Testimonial.jpg?v=1651824411&width=1512);
+}
+
+.love-wrap{
+    text-align: center;
+}
+
+.quote{
+    padding: 50px;
+    vertical-align: baseline;
+}
+.love-desc{
+    color:#fff;
+    line-height: 0px;
+    line-height: 1;
+}
+.author{
+    color: #8a8a8a;
+    line-height: 24px;
+    margin-top: 25px;
+}
+.cirle{
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+}
+.cirle-item{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.cirle-item_a{
+    width: 10px;
+    height: 10px;
+    background-color: #6b6b6b;
+    border-radius: 10px;
+}
+.welcome{
+    margin-top: 45px;
+}
+.element{
+    margin: 120px 60px 0 90px;
+}
+.container-3{
+    display: flex;
+    background-color: #fff;
+    height: 100vh;
+    align-content: center;
+}
+.quotes-2{
+    font-size: 30px;
+    line-height: 0.5;
+}
+.paragraph{
+    margin: 30px 40px 30px 0;
+}
+
+.about__content{
+    text-align: center;
+    
+}
+.btn-star-to-shop{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #222222;
+    text-transform: uppercase;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.btn-star-to-shop:hover{
+    background-color: #8a8a8a;
+}
+.menu-bread{
+    background-image: url(https://kalles.the4.co/demo/bakery/wp-content/uploads/2022/01/bg-collection.png);
+    width: 1349px;
+    left: -104.5px;
+    padding: 60px 0px 65px 0px;
+    background-repeat: no-repeat;
+
+}
+.menu-bread-wrapper{
+    width: auto;
+}
+
+.container-menu{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.img-bread{
+    height: 272px;
+    border-radius: 10px;
+}
+.img-bread:hover img{
+    transform: scale(1.1) rotate(-);
+}
+.container-menu-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 5px 10px 5px 10px;
+    border: none;
+    background: none;
+    position: relative;
+    overflow: hidden;
+    
+}
+.intro{
+    height: 0;
+    width: 350px;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 20px;
+    background-color: rgba(228, 185, 136, 0.3);
+    transition: .5s;
+}
+
+
+.heart{
+    position: absolute;
+    margin: 10px 0 0 20px;
+    color: #eec1c1;
+}
+.btn-buy{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 3px;
+    opacity: 50%;
+}
+
+.heart:hover{
+    color: #ff8484;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.intro:hover{
+    height: 100px;
+    background: rgba(238, 212, 195, 0.5);
+}
+.btn-buy:hover{
+    height: 45px;
+    opacity: 1;
+}
+.eye, .cart{
+    padding: 10px;
+}
+.eye:hover, .cart:hover{
+    color:#fff;
+    background-color: #222222;
+    
+}
+.name-b{
+    position: absolute;
+    opacity: 0;
+    margin-bottom: 75px;
+    color: #0f0f0f;
+    font-size: larger;
+    font-weight:bolder;
+    color: #fff;
+}
+.name-b:hover {
+    opacity: 1;   
+}
+
+.name_price{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.price{
+    margin: 0;
+    color: #d41717;
+    font-weight: 500;
+}
+.name:hover{
+    color: #ff0505;
+}
+.btn_load-more{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.btn_loadmore{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #222222;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    left: 600px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn_loadmore:hover{
+    background-color: #575656;
+}
+.img-deco{
+    width: 1349px;
+    height: 490px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.heading_decs{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 45px;
+    line-height: 1.2;
+    font-size: smaller;
+    font-style: normal;
+}
+.text_line{
+    background-color: #EADEC0;
+    position: absolute;
+    text-align: center;
+}
+.bakehouse-wrapper{
+    padding: 74px;
+    display: flex;
+
+}
+.bakehouse-parent{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 75%;
+    margin: 20px;
+   
+}
+.bakehouse-child{
+    background-size: cover;
+    transition: all 1.1s;
+    overflow: hidden;
+    position: relative;
+}
+.bakehouse-parent, .bakehouse-child:hover{
+    transform: scale(1.2);
+}
+.bakehouse-name{
+    margin-top: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+.bakehouse-name> a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 25px;
+    font-weight: 700;
+}
+.bakehouse-day> p{
+    color: #6b6b6b;
+}
+.bakehouse-paragraph> p{
+    color: #6b6b6b;
+}
+.bakehouse-name> a:hover{
+    color: #ff0505;
+}
+.strip-logo-wrapper{
+    background-image: url(https://kalles.the4.co/demo/bakery/wp-content/uploads/2022/01/Bra-bk.jpg);
+}
+.strip-logo-wrapper{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 140px;
+    display: flex;
+}
+.strip-mentor{
+    padding: 40px;
+    position: relative;
+    flex-direction: column;
+}
+.container-footer{
+    background-image:url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/bg-ft-bakery.jpg) ;
+}
+.container-footer{
+    width: 1349px;
+    height: 467px;
+}
+.row-br1{
+    padding: 80px;
+    display: flex;
+}
+.col-lg-3-b1{
+    color: #fff;
+    
+}
+.location{
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+.contact-rb{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+.phone{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+.icon-footer{
+    margin-top: 18px;
+    gap: 25px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+}
+.col-6-b2{
+    color: #fff;
+    padding-left: 100px;
+}
+.cateories{
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.col-6-b3{
+    color: #fff;
+    padding-left: 100px;
+}
+.col-6-b4{
+    color: #fff;
+    padding-left: 80px;
+}
+.catiories-item{
+    
+}
+.newsletter{
+    font-size: larger;
+    font-weight: 600;
+}
+.col-6-b5{
+    color: #fff;
+    padding-left: 80px;
+}
+.input-box{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    padding: 3px;
+}
+.input-box input{
+    color:#6b6b6b ;
+}
+.input-text{
+    border: none;
+    outline: none;
+    background: none;
+}
+.submit-btn{
+    background-color: #d8ad37;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 23px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.input-box input::placeholder{
+    color: #8c8c8c;
+}
+.submit-btn:hover{
+    background-color: #ac8c35;
+}
+.payment{
+    margin-top: 20px;
+}
+.icon-footer-con:hover{
+    color:#d8ad37;
+}
